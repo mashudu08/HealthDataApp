@@ -11,6 +11,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DbConnection")));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
+// register services
+
 builder.Services.AddScoped<IHealthDataService, HealthDataService>();
 builder.Services.AddScoped<IAlertService, AlertService>();
 builder.Services.AddScoped<IPatientService, PatientService>();
