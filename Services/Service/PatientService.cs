@@ -18,7 +18,7 @@ namespace HealthDataApp.Services.Service
         {
             return await _context.Patients.ToListAsync();
         }
-        public async Task<Patient> GetPatiendByIdAsync(int id)
+        public async Task<Patient> GetPatiendByIdAsync(string id)
         {
             return await _context.Patients.FindAsync(id);
         }
@@ -34,7 +34,7 @@ namespace HealthDataApp.Services.Service
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeletePatientAsync(int id)
+        public async Task DeletePatientAsync(string id)
         {
             var patient = await _context.Patients.FindAsync(id);
             _context.Patients.Remove(patient);

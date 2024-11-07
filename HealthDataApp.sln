@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthDataApp", "HealthDataApp.csproj", "{1DE43FCD-0B48-4967-8DA6-208772692E96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthDataAppFunction", "..\HealthDataAppFunction\HealthDataAppFunction.csproj", "{40D0D7C4-5188-45D4-8B85-ACBF3396376E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1DE43FCD-0B48-4967-8DA6-208772692E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DE43FCD-0B48-4967-8DA6-208772692E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DE43FCD-0B48-4967-8DA6-208772692E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40D0D7C4-5188-45D4-8B85-ACBF3396376E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D0D7C4-5188-45D4-8B85-ACBF3396376E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D0D7C4-5188-45D4-8B85-ACBF3396376E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D0D7C4-5188-45D4-8B85-ACBF3396376E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

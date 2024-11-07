@@ -7,10 +7,10 @@ namespace HealthDataApp.Services.Interface
     public interface IPatientService
     {
         Task<IEnumerable<Patient>> GetPatientsAsync();
-        Task<Patient> GetPatiendByIdAsync(int id);
+        Task<Patient> GetPatiendByIdAsync(string id);
         Task AddPatientAsync(Patient patient);
         Task UpdatePatientAsync(Patient patient);
-        Task DeletePatientAsync(int id);
+        Task DeletePatientAsync(string id);
 
     }
 }

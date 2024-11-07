@@ -7,7 +7,9 @@ namespace HealthDataApp.Models
     {
         [Key]
         public int HealthDataId {get; set;}
-       
+
+        [Required]
+        public string PatientId { get; set;}
 
         [ForeignKey("PatientId")]
         public required Patient Patient { get; set;}
